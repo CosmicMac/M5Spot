@@ -1,28 +1,23 @@
-#M5Spot
+# M5Spot
 
 A Spotify client for M5Stack
 
 ![M5Spot](./doc/M5Spot.jpg)
 
 - Display song title, artists & JPEG album art
-- Display song title, artists & JPEG album art
 - Play/Pause, Next, Previous with M5Stack buttons
 - Easy OAuth2 authorization through browser
 - SSE console in browser to look under the hood
 
-###Prerequisite
-- Create an App in [Spotify Developper Dashboard](https://developer.spotify.com/dashboard/) and declare
-  http://m5spot.local/callback/ as the Redirect URI.
- 
-- Insert a SD card in M5Stack (I don't feel comfortable using internal flash for writing JPEG files again & again).
-- Rename `config.h.SAMPLE` to `config.h` and complete the settings.
+### Prerequisite
+- Create an App in [Spotify Developper Dashboard](https://developer.spotify.com/dashboard/) and declare http://m5spot.local/callback/ as the Redirect URI
+- Insert a SD card in M5Stack (I don't feel comfortable using internal flash for writing JPEG files again & again)
+- Rename `config.h.SAMPLE` to `config.h` and complete the settings
 - Install external libraries (see `platformio.ini`)
 - Compile and upload `src`
 - Upload `data` to file system
 
-
-###Caveat
-
+### Caveat
 This is a work in progress and there is still a lot to do:
 - Better display of title/artists (currently needs sharp eyes, and long strings are truncated)
 - Better error handling
