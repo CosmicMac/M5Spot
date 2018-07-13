@@ -18,6 +18,7 @@ A Spotify client for M5Stack
 
 ### Caveat
 This is a work in progress and there is still a lot to do:
+- Use 8 bits fonts with support for international characters
 - Better display of title/artists (currently needs sharp eyes, and long strings are truncated)
 - Better error handling
 - A bit of refactoring/polishing
