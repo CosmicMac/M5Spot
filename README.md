@@ -1,5 +1,4 @@
 # M5Spot
-
 A Spotify client for M5Stack
 
 ![M5Spot](./doc/M5Spot.jpg)
